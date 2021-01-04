@@ -1,0 +1,9 @@
+console.log(recipe.recipe.label);
+        console.log(recipe.recipe.calories);
+        console.log(recipe.recipe.image);
+
+         <Recipe
+          title={recipe.recipe.label}
+          calories={recipe.recipe.calories}
+          image={recipe.recipe.image}
+        />
