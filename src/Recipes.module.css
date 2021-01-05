@@ -1,0 +1,57 @@
+.recipe {
+  border-radius: 15px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  align-items: center;
+  width: 40%;
+}
+
+.image {
+  padding: 0.5%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 50%;
+  object-fit: cover;
+}
+
+.text {
+  padding: 3%;
+  width: 50%;
+}
+
+.list {
+  display: flex;
+}
+
+.dietLabels {
+  margin: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  background: rgb(90, 255, 90);
+  align-items: center;
+  width: fit-content;
+  padding: 1px;
+}
+
+@media screen and (max-width: 764px) {
+  .recipe {
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    width: 100%;
+    padding: ;
+  }
+}
